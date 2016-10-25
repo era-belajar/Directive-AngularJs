@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<script src="js/angular.min.js"></script>
+<body ng-app="myApp">
+
+<contohdirective></contohdirective>
+
+<script>
+var app = angular.module("myApp", []);
+app.directive("contohdirective", function() {
+    return {
+        template : "<h2>Latihan Menggunakan Directive</h2>"
+    };
+});
+</script>
+
+</body>
+</html>
